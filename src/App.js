@@ -116,15 +116,32 @@
 // Session2-TakeHome
 //__________________________________
 
-import React from "react";
-import DogPics from "./session2-takehome/DogPics";
+// import React from "react";
+// import DogPics from "./session2-takehome/DogPics";
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <DogPics />
-      </div>
-    );
-  }
+// export default class App extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         <DogPics />
+//       </div>
+//     );
+//   }
+// }
+
+//__________________________________
+// Session3-TakeHome
+//__________________________________
+
+import React from "react";
+import BookAppointment from "./session3-takehome/BookAppointment";
+
+function App() {
+  return (
+    <>
+      <BookAppointment />
+    </>
+  );
 }
+
+export default App;
