@@ -26,6 +26,19 @@ function BookAppointment() {
         <option>Dr. John Hopkin</option>
       </select>
       <br />
+      <h4>Where?</h4>
+      <div>
+        <input type="radio" id="google-meet" name="Google Meet" />
+        <label for="google-meet">Google Meet</label>
+      </div>
+      <div>
+        <input type="radio" id="phone" name="Phone" />
+        <label for="phone">Phone</label>
+      </div>
+      <h4>When?</h4>
+      <div>
+        <input type="datetime-local" id="date-details" name="date" />
+      </div>
       <button>Confirm Book</button>
     </>
   );
